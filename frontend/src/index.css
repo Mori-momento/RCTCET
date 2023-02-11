@@ -1,0 +1,300 @@
+body {
+  min-height: 100vh;
+  /* background="https://static.wixstatic.com/media/8f62ff_4bd8a8e58f3a4b949e2e3b8c2714452e~mv2.png/v1/fill/w_1761,h_287,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8f62ff_4bd8a8e58f3a4b949e2e3b8c2714452e~mv2.png"; */
+  /* background-image: url("https://static.wixstatic.com/media/8f62ff_4bd8a8e58f3a4b949e2e3b8c2714452e~mv2.png/v1/fill/w_1761,h_287,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8f62ff_4bd8a8e58f3a4b949e2e3b8c2714452e~mv2.png"); */
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg{
+  height: 100vh;
+  z-index: -1;
+  position:fixed;
+  object-fit: cover;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400;500;700&family=Mulish&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,500;8..30,600;8..30,700&family=Poppins:ital,wght@0,200;0,400;0,700;1,500&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,400;1,500&family=Smokum&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.about-container {
+  background-image: url("https://static.wixstatic.com/media/8f62ff_4bd8a8e58f3a4b949e2e3b8c2714452e~mv2.png/v1/fill/w_96,h_64,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_auto/8f62ff_4bd8a8e58f3a4b949e2e3b8c2714452e~mv2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  background-attachment: fixed;
+}
+.about-us {
+  display: flex;
+  width: 85%;
+  margin: 2rem auto;
+  height: 60vh;
+}
+.about-us > img {
+  flex: 1;
+}
+.about-us > .text {
+  background-color: #46707caa;
+  flex: 2;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #000;
+}
+.text > h1,
+.text > span {
+  text-align: center;
+}
+.text > h1 {
+  background-color: #fff;
+  padding: 0.3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.text > span {
+  color: #fff;
+  margin: 0.5rem;
+  font-weight: 500;
+}
+.middle {
+  margin: 4rem;
+  font-size: 2rem;
+}
+.text > p {
+  font-size: 0.9rem;
+  color: #281a39;
+  font-weight: 600;
+  width: 80%;
+  line-height: 2rem;
+}
+.ourobj-container {
+  padding: 2rem;
+  background-color: #35525a8b;
+  margin: 2rem auto;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+  box-shadow: 0 0 2px #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.ourobj-container > h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+.ourobj-container > ul {
+  font-weight: 600;
+}
+.avenue {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #4d6365c5;
+  width: 75%;
+  margin: 1rem auto;
+  box-shadow: 0 0 2px #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.avenue > h1 {
+  display: flex;
+  margin: 1rem auto;
+  width: 25%;
+}
+.services {
+  display: flex;
+  width: 75%;
+  margin: 5rem auto;
+}
+.services > .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.services > .text > .h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.services > .text > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.services > img {
+  width: 50%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    overflow-x: hidden;
+    height: max-content;
+    padding: 0.7rem;
+    width: 100vw;
+  }
+  .about-us {
+    flex-direction: column;
+    margin-bottom: 3rem;
+    width: 95%;
+    margin: 1rem auto;
+    height: max-content;
+    margin: 0.5rem;
+  }
+  .about-us > .text > p {
+    padding: 1rem 0;
+  }
+  .about-us > .text > p {
+    width: 100%;
+  }
+  .about-us > img {
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 0.5rem;
+  }
+  .ourobj-container {
+    width: 95%;
+    margin: 1rem 0.5rem;
+    padding: 1.5rem;
+  }
+  .avenue {
+    flex-direction: column;
+    font-size: 1rem;
+    text-align: center;
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+  .avenue > h1 {
+    width: 60%;
+  }
+
+  .services {
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    margin: 0.7rem;
+  }
+  .services > .text {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .services > .text > p {
+    width: 100%;
+  }
+  .services > .text > h2 {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+  }
+  .services > img {
+    width: 100%;
+    height: 30vh;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  background-image: url("./images/hand-painted-abstract-watercolor-as-background_8311-932.jpg");
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+} */
+.hobby-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+}
+
+.firstcard {
+  display: flex;
+  width: 85%;
+  margin: 1rem auto;
+}
+.imag-card {
+  /* background-image: url("./images/inight.jpg"); */
+  width: 70%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 3;
+}
+.text-card {
+  display: flex;
+  position: absolute;
+  margin: 1rem auto;
+  width: 50%;
+  height: 70%;
+  top: 20%;
+  left: 40%;
+  z-index: 4;
+  background-color: #fff;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem;
+}
+.text-card > ul {
+  width: 80%;
+  margin: 2rem auto;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+.text-card > h2 {
+  font-size: 3rem;
+}
+@media (max-width: 768px) {
+  .hobby-container {
+    width: 100%;
+  }
+  .text-card > h2 {
+    font-size: 2rem;
+  }
+  .firstcard {
+    flex-direction: column;
+
+    width: 95%;
+  }
+  .imag-card {
+    width: 100%;
+    height: 50vh;
+    margin: 0.5rem 0;
+    background-size: cover;
+    background-position: left;
+  }
+
+  .text-card {
+    position: static;
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+  }
+}
