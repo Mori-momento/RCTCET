@@ -77,10 +77,10 @@ function Navbar() {
             <NavLink to='Upcoming_events' className="list-none border-b-2 hover:border-black p-2">
               Upcoming Events
             </NavLink>
-            <NavLink 
+            <NavLink to='Our_projects_page'
               className="list-none border-b-2 hover:border-black p-2"
-              onMouseEnter={popUpFunOpen}
-              onMouseLeave={popUpFunClose}
+              // onMouseEnter={popUpFunOpen}
+              // onMouseLeave={popUpFunClose}
             >
               Our Projects
             </NavLink>
